@@ -1,0 +1,148 @@
+body{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+/* Home styles*/
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+     
+}
+div#nav{
+text-align: center;
+    background-color: slategrey;
+ }
+
+a:hover{
+color: red;
+}
+a:active{
+    color: orange;
+}
+a{
+color: black;
+
+}
+
+section#aboutme{
+    background-color: teal;
+    height:300px;
+    width: 100%;
+}
+section#blank{
+    background-color:white;
+    height: 50px;
+    width: 100%;
+}
+section#images{
+    height: 300px;
+    max-width: 100%;
+    padding: 5px;
+}
+div#section-images{
+display: inline-flex;
+justify-content: center;
+justify-content: space-evenly;
+
+}
+div.radius>img{
+    border-radius: 5px;
+}
+img#size{
+    height: 250px;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 10px;
+}
+
+
+@media  (min-width: 400px) {
+   
+   
+    div#section-images{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;        
+        }
+     
+}
+@media  (min-width: 600px) {
+   
+   
+    div#section-images{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;        
+        }
+     
+}
+
+@media (max-width: 600px) {
+    div#section-images{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        }
+        
+} 
+/*
+div#form{
+    display: flex-inline;
+    justify-content: center;
+}
+*/
+/* About styles*/
+body{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+     
+}
+div#nav > div{
+    text-align: center;
+    background-color: slategrey;
+    height: 50px;
+ 
+ }
+a:hover{
+color:lightskyblue;
+}
+a:active{
+    color: orange;
+}
+a{
+color: black;
+}
+
+section#about{
+    background-color: teal;
+    height:500px;
+    width: 100%;
+}
+ul{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+/* About styles*/
+
+/*Contact styles*/
+
+
+input#firstname,input#lastname{
+    padding: 5px 5px 5px 5px;
+}
+textarea#area{
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+}

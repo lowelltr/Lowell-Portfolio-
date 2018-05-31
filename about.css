@@ -1,0 +1,40 @@
+/* About styles*/
+body{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+     
+}
+div#nav > div{
+    text-align: center;
+    background-color: slategrey;
+    height: 50px;
+ 
+ }
+a:hover{
+color:lightskyblue;
+}
+a:active{
+    color: orange;
+}
+a{
+color: black;
+}
+
+section#about{
+    background-color: teal;
+    height:500px;
+    width: 100%;
+}
+ul{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+/* About styles*/
